@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "factual",
+    "question": "What is retrieval-augmented generation?",
+    "expected": ["retrieval-augmented", "external"]
+  },
+  {
+    "id": 2,
+    "type": "keyword",
+    "question": "Which datasets does the milestone slide mention for loading motion data?",
+    "expected": ["HumanML3D"]
+  },
+  {
+    "id": 3,
+    "type": "conceptual",
+    "question": "How does RAG reduce hallucinations?",
+    "expected": ["hallucination"]
+  },
+  {
+    "id": 4,
+    "type": "multi-part",
+    "question": "What are the benefits and limitations of RAG?",
+    "expected": ["limitation", "cost"]
+  },
+  {
+    "id": 5,
+    "type": "keyword",
+    "question": "What does the hybrid search section say about combining vector and keyword search?",
+    "expected": ["hybrid"]
+  },
+  {
+    "id": 6,
+    "type": "out-of-scope",
+    "question": "Who won the 2018 FIFA World Cup?",
+    "expected": []
+  }
+]

@@ -1,0 +1,12 @@
+gradio
+chromadb
+sentence-transformers
+google-generativeai
+pymupdf
+python-pptx
+beautifulsoup4
+requests
+numpy
+pandas
+python-dotenv
+pytest
