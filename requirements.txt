@@ -14,4 +14,3 @@ groq
 google-genai
 python-dotenv
 reportlab
-EOF
