@@ -1,6 +1,6 @@
 gradio
 chromadb
-sentence-transformers
+fastembed
 google-generativeai
 pymupdf
 python-pptx

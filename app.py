@@ -1,4 +1,5 @@
 import tempfile
+import os
 from pathlib import Path
 
 import gradio as gr
@@ -268,6 +269,9 @@ with gr.Blocks(title="NotebookLM Clone") as demo:
     report_btn.click(make_report, nb_dd, [report_md, saved_files])
     quiz_btn.click(make_quiz, [nb_dd, n_questions], [quiz_md, key_md, saved_files])
 
-
 if __name__ == "__main__":
-    demo.launch(allowed_paths=[str(DOWNLOAD_DIR)])
+    demo.launch(
+        server_name="0.0.0.0",
+        server_port=int(os.environ.get("PORT", 7860)),
+        allowed_paths=[str(DOWNLOAD_DIR)],
+    )

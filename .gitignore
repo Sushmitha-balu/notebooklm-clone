@@ -11,3 +11,4 @@ chroma_db/
    *.pdf
    *.pptx
 artifact_test_output/
+models/
